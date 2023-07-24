@@ -4,7 +4,7 @@ public class exercicio03 {
 
     public static void main(String[] args) {
         
-        float[] temp = new float[121];
+        float[] temp = new float[5];
         float menorTemp = 9999999, maiorTemp = -1, media = 0, qDiasMenorMedia = 0;
 
         Scanner sc = new Scanner(System.in);
@@ -34,10 +34,17 @@ public class exercicio03 {
                 qDiasMenorMedia += 1;
             }
         }
-
-
         sc.close();
 
+
+        System.out.println("A menor temperatura ocorrida foi de " + menorTemp + "ºC");
+        System.out.println("A maior temperatura ocorrida foi de " + maiorTemp + "ºC");
+        System.out.println("A temperatura média  foi de " + media + "ºC");
+        System.out.println("O nº de dias nos quais a temperatura foi inferior à média foi de " + qDiasMenorMedia + " dias.");
+        
+
+
+        
 
     }
     
