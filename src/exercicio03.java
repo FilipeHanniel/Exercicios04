@@ -4,7 +4,7 @@ public class exercicio03 {
 
     public static void main(String[] args) {
         
-        float[] temp = new float[5];
+        float[] temp = new float[121];
         float menorTemp = 9999999, maiorTemp = -1, media = 0, qDiasMenorMedia = 0;
 
         Scanner sc = new Scanner(System.in);
