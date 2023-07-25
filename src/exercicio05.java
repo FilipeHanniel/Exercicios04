@@ -21,6 +21,7 @@ public class exercicio05 {
             }            
         }
         
+        /*
         for (int i = 0; i < list.length; i++) {
             for (int j = 0; j < list.length; j++) {
                 if (list[i] == list[j] && list[i] != ' ') {
@@ -28,7 +29,7 @@ public class exercicio05 {
                 }
             }  
         }
-
+        */
         System.out.println("Nº de ítens brancos: " + countWhite);
         System.out.println("Nº de vezes em que a letra 'a' ocorre: " + countA);
         System.out.println("Nº de vezes em que ocorre pares de letras: " + countPair);
